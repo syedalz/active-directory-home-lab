@@ -67,11 +67,11 @@ The emphasis throughout is not just on *building* the environment, but on unders
 ![Control Panel blocked by user policy](docs/screenshots/control-panel-access.png)
 *The user-restriction policy blocking Control Panel for a department user.*
 
-![gpresult confirming applied policies](docs/screenshots/computer-gpo.png)
-*`gpresult /r` (elevated) confirming the GPOs applied to the computer.*
+![gpresult showing applied computer policies](docs/screenshots/computer-gpo.png)
+*`gpresult /r` (elevated) confirming the GPO applied under Computer Settings (the login banner).*
 
-![gpresult confirming applied policies](docs/screenshots/user-gpo.png)
-*`gpresult /r` (elevated) confirming the GPOs applied to the computer.*
+![gpresult showing applied user policies](docs/screenshots/user-gpo.png)
+*`gpresult /r` confirming the GPO applied under User Settings (the Control Panel restriction).*
 
 ### File services and access control
 - Created department file shares and secured them with combined **share and NTFS permissions**.
