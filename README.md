@@ -35,7 +35,7 @@ The emphasis throughout is not just on *building* the environment, but on unders
 - Configured DNS (installed with AD) as the domain's authoritative name service.
 - Configured DHCP with an active scope (`192.168.20.100–200`) that assigns clients an address and points them at the domain's DNS — so a client joins the network with zero manual configuration.
 
-![DHCP scope active and leasing](docs/screenshots/dhcp-scope.png)
+![DHCP scope active and leasing](docs/screenshots/dhcp-running.png)
 *DHCP scope active (green) and leasing addresses to the client.*
 
 ### Directory structure
