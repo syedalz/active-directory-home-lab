@@ -117,4 +117,4 @@ Building this end to end made the core of Active Directory concrete rather than 
 
 ---
 
-*Author: [Your Name] · Built [Month Year]*
+*Author: Ali Zaidi · Built September 2026
