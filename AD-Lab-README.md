@@ -19,9 +19,9 @@ The emphasis throughout is not just on *building* the environment, but on unders
 ```
                     Host machine (VMware Workstation Pro)
         ┌──────────────────────────────────────────────────────┐
-        │        Isolated virtual network — VMnet2 (host-only)  │
-        │                   192.168.20.0/24                     │
-        │                                                       │
+        │        Isolated virtual network — VMnet2 (host-only) │
+        │                   192.168.20.0/24                    │
+        │                                                      │
         │   ┌───────────────────────┐   ┌───────────────────┐  │
         │   │        DC01           │   │     CLIENT01      │  │
         │   │  Windows Server 2022  │   │  Windows 11 Ent.  │  │
