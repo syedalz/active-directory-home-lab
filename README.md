@@ -64,21 +64,24 @@ The emphasis throughout is not just on *building* the environment, but on unders
 ![Login banner enforced at client sign-in](docs/screenshots/login-banner.png)
 *The login-banner computer policy enforcing on CLIENT01 before sign-in.*
 
-![Control Panel blocked by user policy](docs/screenshots/control-panel-blocked.png)
+![Control Panel blocked by user policy](docs/screenshots/control-panel-access.png)
 *The user-restriction policy blocking Control Panel for a department user.*
 
-![gpresult confirming applied policies](docs/screenshots/gpresult.png)
-*`gpresult /r` (elevated) confirming the GPOs applied to the computer and user.*
+![gpresult confirming applied policies](docs/screenshots/computer-gpo.png)
+*`gpresult /r` (elevated) confirming the GPOs applied to the computer.*
+
+![gpresult confirming applied policies](docs/screenshots/user-gpo.png)
+*`gpresult /r` (elevated) confirming the GPOs applied to the computer.*
 
 ### File services and access control
 - Created department file shares and secured them with combined **share and NTFS permissions**.
 - Used security groups (not individual users) to grant access, and removed inherited broad-access entries so each share is private to its department.
 - Verified isolation: a Finance user can open the Finance share but is denied the HR share.
 
-![Finance user can open the Finance share](docs/screenshots/share-open.png)
+![Finance user can open the Finance share](docs/screenshots/finance-folder-access.png)
 *A Finance user opening the Finance share...*
 
-![Same user denied the HR share](docs/screenshots/share-denied.png)
+![Same user denied the HR share](docs/screenshots/hr-folder-access.png)
 *...and denied access to the HR share — group-based isolation working.*
 
 ---
